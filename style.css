@@ -701,3 +701,19 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+.btn-project-detail {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	color: white;
+	background: linear-gradient(135deg, #6a11cb, #2575fc);
+	text-decoration: none;
+	border-radius: 8px;
+	transition: 0.3s ease;
+	font-weight: bold
+}
+
+.btn-project-detail:hover {
+	background: linear-gradient(135deg, #2575fc, #6a11cb);
+	transform: scale(1.05);
+}
