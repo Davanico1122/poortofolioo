@@ -43,7 +43,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: #ff6600;
+	color: #2196f3;
 }
 
 .cta {
@@ -51,7 +51,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid #ff6600;
+	border: 2px solid #2196f3;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -61,7 +61,7 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: #ff6600;
+	background-color: #2196f3;
 }
 .brand h1 {
 	font-size: 3rem;
@@ -69,7 +69,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: #ff6600;
+	color: #2196f3;
 }
 
 /* Header section */
@@ -141,7 +141,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: #ff6600;
+	color: #2196f3;
 }
 #header .hamburger {
 	height: 60px;
@@ -249,7 +249,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: #ff6600;
+	background-color: #2196f3;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -443,7 +443,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid  #ff6600;
+	border: 7px solid  #2196f3;
 	z-index: -1;
 }
 /* End About Section */
@@ -561,7 +561,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color:  #ff6600;
+		color:  #2196f3;
 		font-weight: 500;
 	}
 }
@@ -625,7 +625,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid  #ff6600;
+		border: 10px solid #2196f3;
 	}
 	#about .col-right {
 		text-align: left;
