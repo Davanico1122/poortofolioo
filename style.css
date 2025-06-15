@@ -48,7 +48,7 @@ p {
 .cta {
         display: inline-block;
         padding: 10px 30px;
-        color: white;
+        color: #FAE6B1;
         background-color: transparent;
         border: 2px solid #2196f3;
         font-size: 2rem;
@@ -59,7 +59,7 @@ p {
         transition-property: background-color, color;
 }
 .cta:hover {
-        color: white;
+        color: #FAE6B1;
         background-color: #2196f3;
 }
 .brand h1 {
@@ -321,7 +321,7 @@ p {
         text-transform: uppercase;
 }
 #services .service-item p {
-        color: white;
+        color: #FAE6B1;
         text-align: left;
 }
 /* End Services Section */
@@ -373,7 +373,7 @@ p {
         margin-top: 10px;
 }
 #projects .project-info p {
-        color: white;
+        color: #FAE6B1;
 }
 #projects .project-img {
         flex-basis: 50%;
@@ -433,7 +433,7 @@ p {
         height: 100%;
         width: 100%;
         position: relative;
-        border: 10px solid white;
+        border: 10px #FAE6B1;
 }
 #about .col-left .about-img::after {
         content: '';
@@ -555,7 +555,7 @@ p {
 }
 @keyframes text_reveal {
         100% {
-                color: white;
+                color: #FAE6B1;
         }
 }
 @keyframes text_reveal_name {
