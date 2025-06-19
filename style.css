@@ -726,3 +726,85 @@ p {
         transform: scale(1.05);
         border: none;
 }
+
+/* css/style.css - Ini adalah CSS umum/global untuk seluruh website Anda */
+
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Latar belakang abu-abu muda default */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50; /* Warna gelap untuk header */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50; /* Warna judul umum */
+}
+
+/* Gaya untuk breadcrumbs (lokasi navigasi) */
+.breadcrumbs {
+    background-color: #ecf0f1;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 20px; /* Jarak dari header */
+    max-width: 1200px;
+    margin-left: auto; /* Pusatkan */
+    margin-right: auto; /* Pusatkan */
+    border-radius: 5px;
+}
+
+.breadcrumbs a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs span {
+    font-weight: bold;
+    color: #34495e;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+/* Tambahkan gaya global lainnya di sini jika ada */
