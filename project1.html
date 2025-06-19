@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek 1 - Galeri Proyek Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1000px;
+            width: 100%;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            padding-bottom: 15px; /* Added padding to give space below description */
+        }
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+        .card-description {
+            padding: 15px;
+            color: #333;
+            line-height: 1.6;
+            text-align: left; /* Align text to the left */
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>Proyek 1</h1>
+
+    <div class="container">
+        <div class="card">
+            <img src="gambar_proyek_1.jpg" alt="Deskripsi Gambar Proyek 1">
+            <div class="card-description">
+                <p>Ini adalah deskripsi singkat mengenai **Gambar Proyek 1**. Proyek ini melibatkan pengembangan sistem manajemen inventaris yang efisien untuk UKM, membantu melacak stok barang dan mengoptimalkan proses pemesanan.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="gambar_proyek_2.jpg" alt="Deskripsi Gambar Proyek 2">
+            <div class="card-description">
+                <p>Ini adalah deskripsi singkat mengenai **Gambar Proyek 2**. Proyek ini berfokus pada desain antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk aplikasi seluler pemesanan makanan, dengan penekanan pada kemudahan navigasi dan estetika visual.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
